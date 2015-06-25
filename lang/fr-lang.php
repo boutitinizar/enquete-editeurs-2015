@@ -1,0 +1,34 @@
+<?php
+define('enquete-de-satisfaction-config-partners-2015', 'Enquête de Satisfaction Config Partners 2015');
+define('a_tres_satisfait_b_satisfait_c_peu_satisfait_d_insatisfait', 'A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Insatisfait');
+define('ORGANISATION', 'ORGANISATION ');
+define('Communication avant l’évènement  ', 'Communication avant l’évènement');
+define('Dates du Config Partners 2015', 'Dates du Config Partners 2015');
+define('Lieu du Config Partners 2015', 'Lieu du Config Partners 2015');
+define('Qualité de l’accueil', 'Qualité de l’accueil');
+define('Disponibilité des équipes Config et des hôtes d’accueil', 'Disponibilité des équipes Config et des hôtes d’accueil');
+define('HEBERGEMENT – RESTAURATION ', 'HEBERGEMENT – RESTAURATION ');
+define('Logement', 'HEBERGEMENT – RESTAURATION ');
+define('Restauration', 'Restauration');
+define('Déplacements (navettes aéroport, …)', 'Déplacements (navettes aéroport, …)');
+define('CADRE DE TRAVAIL', 'CADRE DE TRAVAIL ');
+define('Salle de conférence', 'Salle de conférence');
+define('Matériel mis à disposition', 'Matériel mis à disposition');
+define('Tables rondes (lieu, disposition des éditeurs…)', 'Tables rondes (lieu, disposition des éditeurs…)');
+define('PROGRAMME ', 'PROGRAMME ');
+define('Rythme (répartition conférences/tables rondes /activités de détente sur l’ensemble du séjour, …)', 'Rythme (répartition conférences/tables rondes /activités de détente sur l’ensemble du séjour, …)');
+define('Votre slot de présentation (durée, outils, positionnement dans le planning, …)', 'Votre slot de présentation (durée, outils, positionnement dans le planning, …)');
+define('Votre table ronde (durée, positionnement, assistance de Config, revendeurs rencontrés, intérêts générés, …)', 'Votre table ronde (durée, positionnement, assistance de Config, revendeurs rencontrés, intérêts générés, …)');
+define('Activités de détente', 'Activités de détente');
+define('Dîner de gala', 'Dîner de gala');
+define('Le Config Partners 2015 a-t-il répondu  à vos attentes ', 'Le Config Partners 2015 a-t-il répondu  à vos attentes ');
+define('OUI ', 'OUI ');
+define('NON  ', 'NON  ');
+define('commentaires_facultatif', 'Commentaires (facultatif)');
+define('Pensez vous que le Config Partners 2015 est un event indispensable au recrutement (ou au développement) de revendeurs, et à la génération de revenu ?', 'Pensez vous que le Config Partners 2015 est un event indispensable au recrutement (ou au développement) de revendeurs, et à la génération de revenu ?');
+define('Y a-t-il certains aspects relatifs à l’organisation ou au programme de ces journées que vous ne souhaiteriez pas que nous renouvelions pour notre prochaine édition ?', 'Y a-t-il certains aspects relatifs à l’organisation ou au programme de ces journées que vous ne souhaiteriez pas que nous renouvelions pour notre prochaine édition ? 	');
+define('Si oui, lesquels ? ', 'Si oui, lesquels ? ');
+define('Avez-vous des souhaits ou des suggestions pour nos prochaines éditions du Config Partners ?', 'Avez-vous des souhaits ou des suggestions pour nos prochaines éditions du Config Partners ?');
+define('Pensez- vous participer à la prochaine édition du Config Partners ?', 'Pensez- vous participer à la prochaine édition du Config Partners ?');
+define('Bandeau_formulaire', 'http://www.config.fr/emailing/emailing_config_partners_editeur/fr/bn_form_fr.jpg');
+?>
