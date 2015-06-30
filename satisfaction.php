@@ -111,7 +111,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <th> Supports distribués (documentation…) </td>
+    <th>Tables rondes </td>
     <td><?php echo  $sugb3['a']; ?></td>
     <td><?php echo  $sugb3['b']; ?></td>
     <td><?php echo  $sugb3['c']; ?></td>
@@ -120,7 +120,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <th> Tables rondes (lieu, disposition des différents éditeurs…) </td>
+    <th> Rythme </td>
     <td><?php echo  $sugb4['a']; ?></td>
     <td><?php echo  $sugb4['b']; ?></td>
     <td><?php echo  $sugb4['c']; ?></td>
@@ -129,7 +129,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <th> Rythme. Répartition conférences/tables rondes /activités de détente sur l&rsquo;ensemble du séjour </td>
+    <th> Votre slot de présentation </td>
     <td><?php echo  $sugb5['a']; ?></td>
     <td><?php echo  $sugb5['b']; ?></td>
     <td><?php echo  $sugb5['c']; ?></td>
@@ -138,7 +138,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <th> Programme des présentations </td>
+    <th>Votre table ronde (durée, positionnement, assistance de Config...</td>
     <td><?php echo  $sugb6['a']; ?></td>
     <td><?php echo  $sugb6['b']; ?></td>
     <td><?php echo  $sugb6['c']; ?></td>
@@ -147,7 +147,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <th> Programme des tables rondes </td>
+    <th>Activités de détente </td>
     <td><?php echo  $sugb7['a']; ?></td>
     <td><?php echo  $sugb7['b']; ?></td>
     <td><?php echo  $sugb7['c']; ?></td>
@@ -156,7 +156,7 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-   <th> Programme des activités de détente </td>
+   <th>Dîner de gala </td>
     <td><?php echo  $sugb8['a']; ?></td>
     <td><?php echo  $sugb8['b']; ?></td>
     <td><?php echo  $sugb8['c']; ?></td>
@@ -164,142 +164,7 @@
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>
-  <tr>
-   <th>Le 1er dîner spectacle au Fuego Latino	</td>
-    <td><?php echo  $sugb9['a']; ?></td>
-    <td><?php echo  $sugb9['b']; ?></td>
-    <td><?php echo  $sugb9['c']; ?></td>
-    <td><?php echo  $sugb9['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <th>Le 2er dîner spectacle au Fuego Latino	</td>
-    <td><?php echo  $sugb10['a']; ?></td>
-    <td><?php echo  $sugb10['b']; ?></td>
-    <td><?php echo  $sugb10['c']; ?></td>
-    <td><?php echo  $sugb10['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <th> Evaluation générale des Présentations </td>
-    <td><?php echo  $sugc1['a']; ?></td>
-    <td><?php echo  $sugc1['b']; ?></td>
-    <td><?php echo  $sugc1['c']; ?></td>
-    <td><?php echo  $sugc1['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
- 
-  <tr>
-    <th> Evaluation générale des tables rondes </td>
-    <td><?php echo  $sugc3['a']; ?></td>
-    <td><?php echo  $sugc3['b']; ?></td>
-    <td><?php echo  $sugc3['c']; ?></td>
-    <td><?php echo  $sugc3['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Cyberoam </td>
-    <td><?php echo  $sugc4['a']; ?></td>
-    <td><?php echo  $sugc4['b']; ?></td>
-    <td><?php echo  $sugc4['c']; ?></td>
-    <td><?php echo  $sugc4['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Citrix </td>
-    <td><?php echo  $sugc5['a']; ?></td>
-    <td><?php echo  $sugc5['b']; ?></td>
-    <td><?php echo  $sugc5['c']; ?></td>
-    <td><?php echo  $sugc5['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Mobotix</td>
-    <td><?php echo  $sugc6['a']; ?></td>
-    <td><?php echo  $sugc6['b']; ?></td>
-    <td><?php echo  $sugc6['c']; ?></td>
-    <td><?php echo  $sugc6['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <th> Table Proxim Wireless</td>
-    <td><?php echo  $sugc7['a']; ?></td>
-    <td><?php echo  $sugc7['b']; ?></td>
-    <td><?php echo  $sugc7['c']; ?></td>
-    <td><?php echo  $sugc7['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-   <tr>
-   <th> Table Wooxo</td>
-    <td><?php echo  $sugc8['a']; ?></td>
-    <td><?php echo  $sugc8['b']; ?></td>
-    <td><?php echo  $sugc8['c']; ?></td>
-    <td><?php echo  $sugc8['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-   <tr>
-   <th> Table Allot Communications </td>
-    <td><?php echo  $sugc9['a']; ?></td>
-    <td><?php echo  $sugc9['b']; ?></td>
-    <td><?php echo  $sugc9['c']; ?></td>
-    <td><?php echo  $sugc9['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-   <tr>
-   <th> Table McAfee </td>
-    <td><?php echo  $sugc10['a']; ?></td>
-    <td><?php echo  $sugc10['b']; ?></td>
-    <td><?php echo  $sugc10['c']; ?></td>
-    <td><?php echo  $sugc10['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Qualys </td>
-    <td><?php echo  $sugc11['a']; ?></td>
-    <td><?php echo  $sugc11['b']; ?></td>
-    <td><?php echo  $sugc11['c']; ?></td>
-    <td><?php echo  $sugc11['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Ruckus Wireless </td>
-    <td><?php echo  $sugc12['a']; ?></td>
-    <td><?php echo  $sugc12['b']; ?></td>
-    <td><?php echo  $sugc12['c']; ?></td>
-    <td><?php echo  $sugc12['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-   <tr>
-    <th> Table Trend Micro</td>
-    <td><?php echo  $sugc13['a']; ?></td>
-    <td><?php echo  $sugc13['b']; ?></td>
-    <td><?php echo  $sugc13['c']; ?></td>
-    <td><?php echo  $sugc13['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th> Table Yadwire</td>
-    <td><?php echo  $sugc14['a']; ?></td>
-    <td><?php echo  $sugc14['b']; ?></td>
-    <td><?php echo  $sugc14['c']; ?></td>
-    <td><?php echo  $sugc14['d']; ?></td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
+
   <tr>
     <th> Le Config Partners 2015 a-t-il répondu à vos attentes ? </td>
     <td>&nbsp;</td>
@@ -310,7 +175,7 @@
     <td><?php echo  $sugd1['nom']; ?></td>
   </tr>
     <tr>
-    <th> Cet évènement vous a-t-il permis de développer vos relations avec Les éditeurs ? </td>
+    <th>Pensez vous que le Config Partners 2015 est un event indispensable</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -319,7 +184,7 @@
     <td><?php echo  $sugd2['nom']; ?></td>
   </tr>
     <tr>
-    <th> Cet évènement vous a-t-il permis de développer vos relations avec Les équipes de Config ? </td>
+    <th>Y a-t-il certains aspects relatifs à l’organisation</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -328,7 +193,7 @@
     <td><?php echo  $sugd3['nom']; ?></td>
   </tr>
     <tr>
-    <th>Souhaitez-vous être rappelé pour aborder un, ou plusieurs, sujets de façon plus approfondie ? </td>
+    <th>Avez-vous des souhaits ou des suggestions </td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -337,7 +202,7 @@
     <td><?php echo  $sugd4['nom']; ?></td>
   </tr>
    <tr>
-    <th> Y a-t-il certains aspects relatifs à l'organisation ou au programme de ces journées que vous ne souhaiteriez pas que nous renouvelions pour notre prochaine édition ?  </td>
+    <th>Pensez- vous participer à la prochaine édition</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
@@ -345,13 +210,5 @@
     <td><?php echo  $sugd5['oui']; ?></td>
     <td><?php echo  $sugd5['nom']; ?></td>
   </tr>
-     <tr>
-    <th>Avez-vous des souhaits ou des suggestions pour nos prochaines éditions du Config Partners ?  </td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td><?php echo  $sugd6['oui']; ?></td>
-    <td><?php echo  $sugd6['nom']; ?></td>
-  </tr>
+
 </table>

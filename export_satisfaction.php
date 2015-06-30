@@ -15,7 +15,7 @@ mysql_query('SET CHARACTER_SET utf8');
 
 
 
-$fields = mysql_query("SELECT * FROM tmp_inscription_forms_data WHERE id_form = 9000");
+$fields = mysql_query("SELECT * FROM tmp_inscription_forms_data WHERE id_form = 9001");
 
 function __unserialize($sObject) {
 	$sObject= utf8_decode($sObject);
@@ -59,33 +59,12 @@ for($i=0;$i<sizeof($data);$i++){
   $rr['sugb6'][] = $data[$i]['sugb6'];
   $rr['sugb7'][] = $data[$i]['sugb7'];
   $rr['sugb8'][] = $data[$i]['sugb8'];
-  $rr['sugb9'][] = $data[$i]['sugb9'];
-  $rr['sugb10'][] = $data[$i]['sugb10'];
-
-  /**/
-
-  $rr['sugc1'][] = $data[$i]['sugc1'];
- 
-  $rr['sugc3'][] = $data[$i]['sugc3'];
-  $rr['sugc4'][] = $data[$i]['sugc4'];
-  $rr['sugc5'][] = $data[$i]['sugc5'];
-  $rr['sugc6'][] = $data[$i]['sugc6'];
-  $rr['sugc7'][] = $data[$i]['sugc7'];
-  $rr['sugc8'][] = $data[$i]['sugc8'];
-  $rr['sugc9'][] = $data[$i]['sugc9'];
-  $rr['sugc10'][] = $data[$i]['sugc10'];
-  $rr['sugc11'][] = $data[$i]['sugc11'];
-  $rr['sugc12'][] = $data[$i]['sugc12'];
-    $rr['sugc13'][] = $data[$i]['sugc13'];
-    $rr['sugc14'][] = $data[$i]['sugc14'];
 
   $rr['sugd1'][] = $data[$i]['sugd1'];
   $rr['sugd2'][] = $data[$i]['sugd2'];
-  
   $rr['sugd3'][] = $data[$i]['sugd3'];
   $rr['sugd4'][] = $data[$i]['sugd4'];
   $rr['sugd5'][] = $data[$i]['sugd5'];   
-  $rr['sugd6'][] = $data[$i]['sugd6']; 
 }
 
 
@@ -98,7 +77,6 @@ for($i=0;$i<sizeof($data);$i++){
   $suga7 = moyen($rr['suga7']);
   $suga8 = moyen($rr['suga8']);
 
-
   $sugb1 = moyen($rr['sugb1']);
   $sugb2 = moyen($rr['sugb2']);
   $sugb3 = moyen($rr['sugb3']);
@@ -107,32 +85,12 @@ for($i=0;$i<sizeof($data);$i++){
   $sugb6 = moyen($rr['sugb6']);
   $sugb7 = moyen($rr['sugb7']);
   $sugb8 = moyen($rr['sugb8']);
-  $sugb9 = moyen($rr['sugb9']);
-  $sugb10 = moyen($rr['sugb10']);
-
-
-  $sugc1 = moyen($rr['sugc1']);
- 
-  $sugc3 = moyen($rr['sugc3']);
-  $sugc4 = moyen($rr['sugc4']);
-  $sugc5 = moyen($rr['sugc5']);
-  $sugc6 = moyen($rr['sugc6']);
-  $sugc7 = moyen($rr['sugc7']);
-  $sugc8 = moyen($rr['sugc8']);
-  $sugc9 = moyen($rr['sugc9']);
-  $sugc10 = moyen($rr['sugc10']);
-  $sugc11 = moyen($rr['sugc11']);
-  $sugc12 = moyen($rr['sugc12']);
-  $sugc13 = moyen($rr['sugc13']);
-  $sugc13 = moyen($rr['sugc14']);
-  
 
   $sugd1 = moyen($rr['sugd1']);
   $sugd2 = moyen($rr['sugd2']);
   $sugd3 = moyen($rr['sugd3']);
   $sugd4 = moyen($rr['sugd4']);
   $sugd5 = moyen($rr['sugd5']);
- $sugd6 = moyen($rr['sugd6']);
 
 function moyen($data){
 

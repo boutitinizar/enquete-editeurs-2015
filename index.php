@@ -79,25 +79,25 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><?php echo commentaires_facultatif ?></td>
           </tr>
             <tr>
-            <td><label>La communication avant l’évènement (invitations, informations relatives à l’évènement…)</label></td>
-            <td><input type="hidden" name="suga1" value=""   />
+                <td><label><?php echo  communication_avant_l_evenement ?></label></td>
+                <td><input type="hidden" name="suga1" value=""   />
                 <input type="radio" name="suga1" value="a" id="suga1_0"   /></td>
-            <td><input type="radio" name="suga1" value="b" id="suga1_0"   /></td>
-            <td><input type="radio" name="suga1" value="c" id="suga1_0"   /></td>
-            <td><input type="radio" name="suga1" value="d" id="suga1_0"   /></td>
-            <td><input type="text" name="coma1" id="coma1" /></td>
-          </tr>
+                <td><input type="radio" name="suga1" value="b" id="suga1_0"   /></td>
+                <td><input type="radio" name="suga1" value="c" id="suga1_0"   /></td>
+                <td><input type="radio" name="suga1" value="d" id="suga1_0"   /></td>
+                <td><input type="text" name="coma1" id="coma1" /></td>
+            </tr>
             <tr>
-            <td><label>Les dates du <strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015</strong></label></td>
-            <input type="hidden" name="suga2" value=""   />
-            <td><input type="radio" name="suga2" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="suga2" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="suga2" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="suga2" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="coma2" id="coma2" /></td>
-          </tr>
+                <td><label><?php echo dates_du ?> <strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015</strong></label></td>
+                <input type="hidden" name="suga2" value=""   />
+                <td><input type="radio" name="suga2" value="a" id="suga1_0" /></td>
+                <td><input type="radio" name="suga2" value="b" id="suga1_0" /></td>
+                <td><input type="radio" name="suga2" value="c" id="suga1_0" /></td>
+                <td><input type="radio" name="suga2" value="d" id="suga1_0" /></td>
+                <td><input type="text" name="coma2" id="coma2" /></td>
+            </tr>
             <tr>
-            <td><label>Le lieu du <strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015</strong></label></td>
+            <td><label><?php echo Lieu_du ?><strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015</strong></label></td>
             <input type="hidden" name="suga3" value=""   />
             <td><input type="radio" name="suga3" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga3" value="b" id="suga1_0" /></td>
@@ -106,7 +106,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="coma3" id="coma3" /></td>
           </tr>
             <tr>
-            <td><label>La qualité de l’accueil </label></td>
+            <td><label> <?php echo qualite_de_l_accueil ?> </label></td>
             <input type="hidden" name="suga4" value=""   />
             <td><input type="radio" name="suga4" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga4" value="b" id="suga1_0" /></td>
@@ -115,7 +115,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="coma4" id="coma4" /></td>
           </tr>
             <tr>
-            <td><label>Les disponibilités des équipes Config et des hôtes /hôtesses d’accueil</label></td>
+            <td><label> <?php echo disponibilite_des_equipes_config_et_des_hotes_d_accueil ?></label></td>
             <input type="hidden" name="suga5" value=""   />
             <td><input type="radio" name="suga5" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga5" value="b" id="suga1_0" /></td>
@@ -124,19 +124,18 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="coma5" id="coma5" /></td>
           </tr>
           </table>
-        <h1>HEBERGEMENT - RESTAURATION</h1>
-        <h5>A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Non applicable</h5>
-        <table  border="1">
-            <tr>
+        <h1><?php echo hebergement_restauration ?></h1>
+        <h5> <?php echo a_tres_satisfait_b_satisfait_c_peu_satisfait_d_insatisfait ?> </h5>
+        <table  border="1"><tr>
             <td></td>
             <td>A</td>
             <td>B</td>
             <td>C</td>
             <td>D</td>
-            <td>Commentaires (facultatif)</td>
+            <td><?php echo commentaires_facultatif ?></td>
           </tr>
             <tr>
-            <td><label>Le logement</label></td>
+            <td><label><?php echo Logement ?> </label></td>
             <td><input type="hidden" name="suga6" value=""   />
                 <input type="radio" name="suga6" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga6" value="b" id="suga1_0" /></td>
@@ -145,7 +144,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="coma6" id="coma6" /></td>
           </tr>
             <tr>
-            <td><label>La restauration</label></td>
+            <td><label><?php echo Restauration ?> </label></td>
             <input type="hidden" name="suga7" value=""   />
             <td><input type="radio" name="suga7" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga7" value="b" id="suga1_0" /></td>
@@ -154,7 +153,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="coma7" id="coma7" /></td>
           </tr>
             <tr>
-            <td><label>Les transferts (navettes  aéroport…)</label></td>
+            <td><label><?php echo deplacements_navettes_aeroport ?></label></td>
             <input type="hidden" name="suga8" value=""   />
             <td><input type="radio" name="suga8" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga8" value="b" id="suga1_0" /></td>
@@ -176,8 +175,8 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
     <!-- #second_step -->
     <div id="second_step">
         <div class="form">
-        <h1>CADRE DE TRAVAIL</h1>
-        <h5>A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Non applicable</h5>
+            <h1><?php echo cadre_de_travail ?></h1>
+            <h5> <?php echo a_tres_satisfait_b_satisfait_c_peu_satisfait_d_insatisfait ?> </h5>
         <table  border="1">
             <tr>
             <td></td>
@@ -185,10 +184,10 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td>B</td>
             <td>C</td>
             <td>D</td>
-            <td>Commentaires (facultatif)</td>
+             <td><?php echo commentaires_facultatif ?></td>
           </tr>
             <tr>
-            <td><label>Salle de conférence</label></td>
+            <td><label><?php echo  salle_de_conference ?></label></td>
             <input type="hidden" name="sugb1" value=""   />
             <td><input type="radio" name="sugb1" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb1" value="b" id="suga1_0" /></td>
@@ -197,7 +196,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="comb1" id="comb1" /></td>
           </tr>
             <tr>
-            <td><label>Matériel mis à disposition</label></td>
+            <td><label><?php echo  materiel_mis_a_disposition ?></label></td>
             <input type="hidden" name="sugb2" value=""   />
             <td><input type="radio" name="sugb2" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb2" value="b" id="suga1_0" /></td>
@@ -206,7 +205,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="text" name="comb2" id="comb2" /></td>
           </tr>
             <tr>
-            <td><label>Supports distribués (documentations …)</label></td>
+            <td><label><?php echo tables_rondes_lieu_disposition_des_editeurs ?></label></td>
             <input type="hidden" name="sugb3" value=""   />
             <td><input type="radio" name="sugb3" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb3" value="b" id="suga1_0" /></td>
@@ -214,18 +213,9 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="radio" name="sugb3" value="d" id="suga1_0" /></td>
             <td><input type="text" name="comb3" id="comb3" /></td>
           </tr>
-            <tr>
-            <td><label>Tables rondes (lieu, disposition des différents éditeurs…)</label></td>
-            <input type="hidden" name="sugb4" value=""   />
-            <td><input type="radio" name="sugb4" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb4" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb4" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb4" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb4" id="comb4" /></td>
-          </tr>
           </table>
-        <h1>PROGRAMME</h1>
-        <h5>A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Non applicable</h5>
+        <h1><?php echo PROGRAMME ?></h1>
+            <h5> <?php echo a_tres_satisfait_b_satisfait_c_peu_satisfait_d_insatisfait ?> </h5>
         <table  border="1">
             <tr>
             <td></td>
@@ -233,67 +223,56 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td>B</td>
             <td>C</td>
             <td>D</td>
-            <td>Commentaires (facultatif)</td>
+            <td><?php echo commentaires_facultatif ?></td>
           </tr>
             <tr>
-            <td><label>Rythme sur l’ensemble du séjour<br/>
-                Répartition conférences, tables rondes,
-                activités de détente, … </label></td>
+            <td><label> <?php echo rythme_repartition_conferences_tables_rondes ?></label></td>
+            <input type="hidden" name="sugb4" value=""/>
+            <td><input type="radio" name="sugb4" value="a" id="suga1_0" /></td>
+            <td><input type="radio" name="sugb4" value="b" id="suga1_0" /></td>
+            <td><input type="radio" name="sugb4" value="c" id="suga1_0" /></td>
+            <td><input type="radio" name="sugb4" value="d" id="suga1_0" /></td>
+            <td><input type="text" name="comb4" id="comb5" /></td>
+          </tr>
+            <tr>
+            <td><label><?php echo  votre_slot_de_presentation_duree ?></label></td>
             <input type="hidden" name="sugb5" value=""   />
             <td><input type="radio" name="sugb5" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb5" value="b" id="suga1_0" /></td>
             <td><input type="radio" name="sugb5" value="c" id="suga1_0" /></td>
             <td><input type="radio" name="sugb5" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb5" id="comb5" /></td>
+            <td><input type="text" name="comb5" id="comb6" /></td>
           </tr>
             <tr>
-            <td><label>Programme des présentations</label></td>
+            <td><label><?php  echo  votre_table_ronde_duree_positionnement_assistance ?> </label></td>
             <input type="hidden" name="sugb6" value=""   />
             <td><input type="radio" name="sugb6" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb6" value="b" id="suga1_0" /></td>
             <td><input type="radio" name="sugb6" value="c" id="suga1_0" /></td>
             <td><input type="radio" name="sugb6" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb6" id="comb6" /></td>
+            <td><input type="text" name="comb6" id="comb7" /></td>
           </tr>
             <tr>
-            <td><label>Programme des tables rondes </label></td>
+            <td><label><?php  echo  activites_de_detente ?>   </label></td>
             <input type="hidden" name="sugb7" value=""   />
             <td><input type="radio" name="sugb7" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb7" value="b" id="suga1_0" /></td>
             <td><input type="radio" name="sugb7" value="c" id="suga1_0" /></td>
             <td><input type="radio" name="sugb7" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb7" id="comb7" /></td>
+            <td><input type="text" name="comb7" id="comb8" /></td>
           </tr>
+              </tr>
+            
             <tr>
-            <td><label>Programme des activités de détente </label></td>
+            <td><label><?php  echo  diner_de_gala ?></label></td>
             <input type="hidden" name="sugb8" value=""   />
             <td><input type="radio" name="sugb8" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb8" value="b" id="suga1_0" /></td>
             <td><input type="radio" name="sugb8" value="c" id="suga1_0" /></td>
             <td><input type="radio" name="sugb8" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb8" id="comb8" /></td>
+            <td><input type="text" name="comb8" id="comb9" /></td>
           </tr>
-              </tr>
-            
-            <tr>
-            <td><label>Le 1er dîner spectacle au Fuego Latino</label></td>
-            <input type="hidden" name="sugb9" value=""   />
-            <td><input type="radio" name="sugb9" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb9" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb9" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb9" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb9" id="comb9" /></td>
-          </tr>
-		      
-            <tr>
-            <td><label>Le 2er dîner spectacle au Comptoir Darna</label></td>
-            <input type="hidden" name="sugb9" value=""   />
-            <td><input type="radio" name="sugb10" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb10" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb10" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugb10" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comb10" id="comb9" /></td>
-          </tr>
+
           </table>
       </div>
         <!-- clearfix -->
@@ -306,167 +285,13 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
     <div class="clear"></div>
     <!-- /clearfix --> 
     
-    <!-- #third_step -->
-    <div id="third_step">
-        <div class="form">
-        <h1>PRESENTATIONS</h1>
-        <h5>A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Non applicable</h5>
-        <table  border="1">
-            <tr>
-            <td></td>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>Commentaires (facultatif)</td>
-          </tr>
-            <tr>
-            <td><label>Evaluation générale des présentations</label></td>
-            <input type="hidden" name="sugc1" value=""   />
-            <td><input type="radio" name="sugc1" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc1" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc1" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc1" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc1" id="comc1" /></td>
-          </tr>
-          </table>
-        <h1>Tables Rondes petit-déjeuner</h1>
-		       <h5>A : Très satisfait | B : Satisfait  | C: Peu satisfait  | D : Non applicable</h5>
-        <table  border="1">
-	    <tr>
-            <td></td>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-            <td>D</td>
-            <td>Commentaires (facultatif)</td>
-          </tr>
-            <tr>
-            <td><label>Evaluation générale des tables rondes</label></td>
-            <input type="hidden" name="sugc2" value=""   />
-            <td><input type="radio" name="sugc2" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc2" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc2" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc2" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc2" id="comc3" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Cyberoam</label></td>
-            <input type="hidden" name="sugc4" value=""   />
-            <td><input type="radio" name="sugc3" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc3" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc3" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc3" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc3" id="comc4" /></td>
-          </tr>
-              </tr>
-            
-            <tr>
-            <td><label>Table Citrix</label></td>
-            <input type="hidden" name="sugc4" value=""   />
-            <td><input type="radio" name="sugc4" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc4" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc4" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc4" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc4" id="comc5" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Mobotix</label></td>
-            <input type="hidden" name="sugc5" value=""   />
-            <td><input type="radio" name="sugc5" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc5" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc5" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc5" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc5" id="comc6" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Proxim Wireless</label></td>
-            <input type="hidden" name="sugc6" value=""   />
-            <td><input type="radio" name="sugc6" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc6" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc6" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc6" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc6" id="comc7" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Wooxo</label></td>
-            <input type="hidden" name="sugc7" value=""   />
-            <td><input type="radio" name="sugc7" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc7" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc7" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc7" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc7" id="comc8" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Allot Communications</label></td>
-            <input type="hidden" name="sugc8" value=""   />
-            <td><input type="radio" name="sugc8" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc8" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc8" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc8" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc8" id="comc7" /></td>
-          </tr>
-            <tr>
-            <td><label>Table McAfee</label></td>
-            <input type="hidden" name="sugc9" value=""   />
-            <td><input type="radio" name="sugc9" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc9" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc9" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc9" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc9" id="comc7" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Qualys</label></td>
-            <input type="hidden" name="sugc10" value=""   />
-            <td><input type="radio" name="sugc10" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc10" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc10" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc10" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc10" id="comc8" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Ruckus Wireless</label></td>
-            <input type="hidden" name="sugc11" value=""   />
-            <td><input type="radio" name="sugc11" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc11" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc11" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc11" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc11" id="comc9" /></td>
-          </tr>
-            <tr>
-            <td><label>Table Trend Micro</label></td>
-            <input type="hidden" name="sugc12" value=""   />
-            <td><input type="radio" name="sugc12" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc12" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc12" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc12" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc12" id="comc10" /></td>
-          </tr>
-          <tr>
-            <td><label>Table Yadwire</label></td>
-            <input type="hidden" name="sugc13" value=""   />
-            <td><input type="radio" name="sugc13" value="a" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc13" value="b" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc13" value="c" id="suga1_0" /></td>
-            <td><input type="radio" name="sugc13" value="d" id="suga1_0" /></td>
-            <td><input type="text" name="comc13" id="comc9" /></td>
-          </tr>
-          </table>
-      </div>
-        <!-- clearfix -->
-        <div class="clear"></div>
-        <!-- /clearfix -->
-        <input class="retour" type="submit" name="retour_third" id="retour_third" value="" />
-        <input class="submit" type="submit" name="submit_third" id="submit_third" value="" />
-      </div>
-    <!-- clearfix -->
-    <div class="clear"></div>
-    <!-- /clearfix --> 
+
     
     <!-- #fourth_step -->
     <div id="fourth_step">
         <div class="form">
-		<h1 style="color:#fa671a">Votre avis</h1>
+		<h1 style="color:#fa671a"><?php echo  votre_avis; ?></h1>
+            <h5> <?php echo a_tres_satisfait_b_satisfait_c_peu_satisfait_d_insatisfait ?> </h5>
         <table  border="1">
             <tr>
             <td></td>
@@ -474,73 +299,65 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td></td>
             <td></td>
             <td></td>
-            <td>Commentaires (facultatif)</td>
-          </tr>
+                <td><?php echo commentaires_facultatif ?></td>
+            </tr>
             <tr>
-            <td><label>Le <strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015 </strong>a-t-il répondu  à vos attentes ?</label></td>
-            <td>Oui</td>
+            <td><label><?php echo le_config_partners_2015_a_t_il_repondu_a_vos_attentes ?></label></td>
+                <td><?php echo OUI ?></td>
             <input type="hidden" name="sugd1" value=""   />
-            <td><input type="radio" name="sugd1" value="oui" id="suga1_0" /></td>
+            <td><input type="radio" name="sugd1" value="<?php echo OUI ?>" id="suga1_0" /></td>
             <td>Non</td>
-            <td><input type="radio" name="sugd1" value="nom" id="suga1_0" /></td>
+            <td><input type="radio" name="sugd1" value="<?php echo NON ?>" id="suga1_0" /></td>
             <td><input type="text" name="comd1" id="comd1" /></td>
           </tr>
             <tr>
-            <td><label>Cet évènement vous a-t-il permis de développer vos relations avec les éditeurs  ?</label></td>
-            <td>Oui</td>
+            <td><label><?php echo pensez_vous_que_le_config_partners_2015 ?></label></td>
+                <td><?php echo OUI ?></td>
             <input type="hidden" name="sugd2" value=""   />
             <td><input type="radio" name="sugd2" value="oui" id="suga1_0" /></td>
-            <td>Non</td>
+                <td><?php echo NON ?></td>
             <td><input type="radio" name="sugd2" value="nom" id="suga1_0" /></td>
             <td><input type="text" name="comd2" id="comd1" /></td>
           </tr>
             <tr>
-            <td><label>Cet évènement vous a-t-il permis de développer vos relations avec les équipes de  Config ? </label></td>
-            <td>Oui</td>
+            <td><label><?php echo y_a_t_il_certains_aspects_relatifs_a_l_organisation ?> <?php echo si_oui_lesquels ?></label></td>
+                <td><?php echo OUI ?></td>
             <input type="hidden" name="sugd3" value=""   />
             <td><input type="radio" name="sugd3" value="oui" id="suga1_0" /></td>
-            <td>Non</td>
-            <td><input type="radio" name="sugd3" value="nom" id="suga1_0" /></td>
+                <td><?php echo NON ?></td>
+            <td><input type="radio" name="sugd3"  value="nom" id="suga1_0" /></td>
             <td><input type="text" name="comd3" id="comd1" /></td>
           <tr>
-            <td><label>Souhaitez-vous être rappelé pour aborder un, ou plusieurs, sujets de façon plus approfondie ? (Si oui, lesquels ?)</label></td>
-            <td>Oui</td>
+            <td><label><?php echo avez_vous_des_souhaits_ou_des_suggestions_pour_nos ?></label></td>
+            <td><?php echo OUI ?></td>
             <input type="hidden" name="sugd4" value=""   />
-            <td><input type="radio" name="sugd4" value="oui" id="suga1_0" /></td>
-            <td>Non</td>
+            <td><input type="radio" name="sugd4" value="oui"  id="suga1_0" /></td>
+            <td><?php echo NON ?></td>
             <td><input type="radio" name="sugd4" value="nom" id="suga1_0" /></td>
             <td><input type="text" name="comd4" id="comd2" /></td>
           </tr>
             <tr>
-            <td><label>Y a-t-il certains aspects relatifs à l’organisation ou au programme de ces journées que vous ne souhaiteriez pas que nous renouvelions pour notre prochaine édition ? (Si oui, lesquels ?) </label></td>
-            <td>Oui</td>
+            <td><label><?php echo pensez_vous_participer_a_la_prochaine_edition_du_config_partners ?></label></td>
+             <td><?php echo OUI ?></td>
             <input type="hidden" name="sugd5" value=""   />
             <td><input type="radio" name="sugd5" value="oui" id="suga1_0" /></td>
-            <td>Non</td>
+            <td><?php echo NON ?></td>
             <td><input type="radio" name="sugd5" value="nom" id="suga1_0" /></td>
             <td><input type="text" name="comd5" id="comd2" /></td>
           </tr>
-            <tr>
-            <td><label>Avez-vous des souhaits ou des suggestions pour nos prochaines éditions du Config Partners ? (Si oui, lesquels ?)</label></td>
-            <td>Oui</td>
-            <input type="hidden" name="sugd6" value=""   />
-            <td><input type="radio" name="sugd6" value="oui" id="suga1_0" /></td>
-            <td>Non</td>
-            <td><input type="radio" name="sugd6" value="nom" id="suga1_0" /></td>
-            <td><input type="text" name="comd6" id="comd2" /></td>
-          </tr>
+
           </table>
-        <h1>Informations</h1>
+        <h1><?php echo Informations ?></h1>
         <div id="info">
-            <label>Nom</label>
+            <label> <?php echo Nom ?></label>
             <input  id="nom" class="" type="text" value="" name="nom">
-            <label>Prénom</label>
+            <label> <?php echo prenom ?></label>
             <input id="prenom" class="" type="text" value="" name="prenom">
-            <label>Email</label>
+            <label> Email</label>
             <input id="email" class="" type="text" value="" name="email">
-            <label>Société</label>
+            <label><?php echo  company ?></label>
             <input id="societe" class="" type="text" value="" name="societe">
-            <label>Pays</label>
+            <label> <?php echo Pays ?></label>
             <input id="Pays" class="" type="text" value="" name="Pays">
           </div>
       </div>

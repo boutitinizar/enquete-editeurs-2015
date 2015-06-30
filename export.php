@@ -15,7 +15,7 @@ mysql_query('SET CHARACTER_SET utf8');
 
 
 
-$fields = mysql_query("SELECT * FROM tmp_inscription_forms_data WHERE id_form = 9000");
+$fields = mysql_query("SELECT * FROM tmp_inscription_forms_data WHERE id_form = 9001");
 
 function __unserialize($sObject) {
 	$sObject= utf8_decode($sObject);
@@ -68,7 +68,29 @@ while($row = mysql_fetch_assoc($fields)){
 
 //die(print_r($data));
 
-   $header=array("Communication avant...","Commentaires","Dates du Config...","Commentaires","Lieu du Config...","Commentaires","Qualité de l’accueil...","Commentaires","Disponibilité des équipes","Commentaires","Logement","Commentaires","Restauration ","Commentaires","Transfert","Commentaires","Salles de conférence","Commentaires","Matériel","Commentaires","Supports distribués","Commentaires","Tables rondes","Commentaires","Rythme. Répartition...","Commentaires","Programme des présentations","Commentaires","Programme des tables rondes","Commentaires","Programme des activités","Commentaires","Le 1er dîner spectacle au Fuego Latino","Commentaires","Le 2er dîner spectacle au Fuego Latino","Commentaires","Evaluation générale...","Commentaires","Evaluation générale des tables rondes","Commentaires","Table Cyberoam","Commentaires","Table Citrix","Commentaires","Table Mobotix","Commentaires","Table Proxim Wireless","Commentaires","Table Wooxo","Commentaires","Table Allot Communications","Commentaires","Table McAfee","Commentaires","Table Qualys","Commentaires","Table Ruckus Wireless","Commentaires","Table Trend Micro","Commentaires","Table Yadwire","Commentaires","Le Config Partners 2012 a-t-il répondu...","Commentaires","Cet évènement ... Les éditeurs ?","Commentaires","Cet évènement ...  Les équipes de Config ?","Commentaires","Souhaitez-vous être rappelé pour aborder","Commentaires","Y a-t-il certains aspects relatifs...","Commentaires","Avez-vous des souhaits ou des suggestions...","Commentaires","Nom", "Prénom", "Email", "Société","Pays","Pourcentage de satisfaction"); 
+   $header=array(
+	   "Communication avant...","Commentaires",
+	   "Dates du Config...","Commentaires",
+	   "Lieu du Config...","Commentaires",
+	   "Qualité de l’accueil...","Commentaires",
+	   "Disponibilité des équipes","Commentaires",
+	   "Logement","Commentaires",
+	   "Restauration ","Commentaires",
+	   "Déplacements","Commentaires",
+	   "Salles de conférence","Commentaires",
+	   "Matériel","Commentaires",
+	   "Tables rondes","Commentaires",
+	   "Rythme ","Commentaires",
+	   "Votre slot de présentation.","Commentaires",
+	   "Votre table ronde","Commentaires",
+	   "Activités de détente","Commentaires",
+	   "Dîner de gala","Commentaires",
+	   "Le Config Partners 2015 a-t-il répondu à vos attentes ","Commentaires",
+	   "Pensez vous que le Config Partners 2015 est un event indispensable","Commentaires",
+	   "Y a-t-il certains aspects relatifs à l’organisation","Commentaires",
+	   "Avez-vous des souhaits ou des suggestions ","Commentaires","Cet évènement ... Les éditeurs ?","Commentaires",
+	   "Pensez- vous participer à la prochaine édition","Commentaires",
+	   "Nom", "Prénom", "Email", "Société","Pays","Pourcentage de satisfaction");
  
 	//code to download the data of report in the excel format
 	$fn="partenaires.xls";

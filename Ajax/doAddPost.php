@@ -44,7 +44,7 @@
     $datas = serialize($_POST);
 
     $sql = "INSERT INTO tmp_inscription_forms_data VALUES "; 
-    $sql.= "('',9000 , '".$datas."', now() ) ";
+    $sql.= "('',9001 , '".$datas."', now() ) ";
 
     $results = mysql_db_query("configeconfig",$sql) or die('Query error: ' . mysql_error()); 
 	
@@ -52,7 +52,7 @@
 	// Envoyer un mail 
 	 $mails = array('boutitinizar@gmail.com','c.bogaert@config.fr','j.pieraccini@config.eu');
 
-	$sujet ='Config Partners 2015 - enquête de satisfaction'; 
+	$sujet ='Config Partners 2015 - enquête de satisfaction editeurs';
     $From  = "no-reply@config.fr";
  
 

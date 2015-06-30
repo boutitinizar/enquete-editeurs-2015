@@ -238,20 +238,18 @@ table tr td {
 	text-align:center;
 }
 #container #info {
-	width:300px;
+	width:350px;
 	margin:2px auto;
 	text-align:center;
 }
 #container #info input {
 	float:left;
- 
 }
 
 #container #info label {
 	float:left;
- 
- width:30px;
- line-height:40px;
+	width:60px;
+	line-height:40px;
 }
 #conclusion{
 	width:520px;

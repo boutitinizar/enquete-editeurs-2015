@@ -15,7 +15,7 @@ else if ($_GET['langue'] == 'en' || $_GET['langue'] == 'fr')
 // la langue par défaut du navigateur
 else
 {
-    $langue = substr($HTTP_SERVER_VARS['HTTP_ACCEPT_LANGUAGE'],0,2);
+    $langue = 'fr';
     set_cookie($langue);
 }
 
