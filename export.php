@@ -88,7 +88,7 @@ while($row = mysql_fetch_assoc($fields)){
 	   "Le Config Partners 2015 a-t-il répondu à vos attentes ","Commentaires",
 	   "Pensez vous que le Config Partners 2015 est un event indispensable","Commentaires",
 	   "Y a-t-il certains aspects relatifs à l’organisation","Commentaires",
-	   "Avez-vous des souhaits ou des suggestions ","Commentaires","Cet évènement ... Les éditeurs ?","Commentaires",
+	   "Avez-vous des souhaits ou des suggestions ","Commentaires",
 	   "Pensez- vous participer à la prochaine édition","Commentaires",
 	   "Nom", "Prénom", "Email", "Société","Pays","Pourcentage de satisfaction");
  
