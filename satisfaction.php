@@ -156,11 +156,20 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-   <th>Dîner de gala </td>
+   <th>Dîner de gala au Fuego Latino </td>
     <td><?php echo  $sugb8['a']; ?></td>
     <td><?php echo  $sugb8['b']; ?></td>
     <td><?php echo  $sugb8['c']; ?></td>
     <td><?php echo  $sugb8['d']; ?></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th>Dîner de gala au Comptoir Darna </td>
+    <td><?php echo  $sugb9['a']; ?></td>
+    <td><?php echo  $sugb9['b']; ?></td>
+    <td><?php echo  $sugb9['c']; ?></td>
+    <td><?php echo  $sugb9['d']; ?></td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
   </tr>

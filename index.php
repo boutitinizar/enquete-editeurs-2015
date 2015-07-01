@@ -21,7 +21,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
   <script type="text/javascript" src="js/jquery.inputfocus-0.9.min.js"></script>
-  <script type="text/javascript" src="js/jquery.main.js"></script>
+  <script type="text/javascript" src="js/<?php echo $langue ?>-jquery.main.js"></script>
   <script type="text/javascript" language="javascript" src="js/jquery.carouFredSel-5.6.0-packed.js"></script>
   <script>
   $(document).ready(function(){
@@ -38,10 +38,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
   </script>
   </head>
   <body>
-  <div class="flag">
-      <div id="animated-example" class="animated fadeInUp icon-button"> <a href="?langue=fr" ><img src="images/fr.png" alt=""/></a></div>
-      <div id="animated-example" class="animated fadeInUp icon-button">  <a href="?langue=en" ><img src="images/en.png" alt=""/></a></div>
-  </div>
+
 
 <img src="<?php echo Bandeau_formulaire ?>" id="banner" alt="" width="752" height="203" />
 <div class="list_carousel" style="clear:both">
@@ -61,7 +58,14 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
       </ul>
   </div>
   </div>
+<div class="flag">
+    <span><?php echo choose_your_language ;?></span>
+    <div id="animated-example" class="animated fadeInUp icon-button">  <a href="?langue=en" ><img src="images/en.png" alt=""/></a></div>
+    <div id="animated-example" class="animated fadeInUp icon-button"> <a href="?langue=fr" ><img src="images/fr.png" alt=""/></a></div>
+
+</div>
 <div id="container">
+
     <form   method="post" id="FormAddPost">
     
     <!-- #first_step -->
@@ -97,7 +101,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
                 <td><input type="text" name="coma2" id="coma2" /></td>
             </tr>
             <tr>
-            <td><label><?php echo Lieu_du ?><strong style="color:#477829; font-size:14px; font-style:italic;" >Config Partners 2015</strong></label></td>
+            <td><label><?php echo Lieu_du ?><strong style="color:#477829; font-size:14px; font-style:italic;" > Config Partners 2015</strong></label></td>
             <input type="hidden" name="suga3" value=""   />
             <td><input type="radio" name="suga3" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="suga3" value="b" id="suga1_0" /></td>
@@ -264,7 +268,7 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
               </tr>
             
             <tr>
-            <td><label><?php  echo  diner_de_gala ?></label></td>
+            <td><label><?php  echo  diner_de_gala_Latino ?></label></td>
             <input type="hidden" name="sugb8" value=""   />
             <td><input type="radio" name="sugb8" value="a" id="suga1_0" /></td>
             <td><input type="radio" name="sugb8" value="b" id="suga1_0" /></td>
@@ -272,8 +276,18 @@ elseif ($_GET['langue'] == "en" || $langue == "en")
             <td><input type="radio" name="sugb8" value="d" id="suga1_0" /></td>
             <td><input type="text" name="comb8" id="comb9" /></td>
           </tr>
+            <tr>
+                <td><label><?php  echo  diner_de_gala_Comptoir_Darna ?></label></td>
+                <input type="hidden" name="sugb9" value=""   />
+                <td><input type="radio" name="sugb9" value="a" id="suga1_0" /></td>
+                <td><input type="radio" name="sugb9" value="b" id="suga1_0" /></td>
+                <td><input type="radio" name="sugb9" value="c" id="suga1_0" /></td>
+                <td><input type="radio" name="sugb9" value="d" id="suga1_0" /></td>
+                <td><input type="text" name="comb9" id="comb9" /></td>
+            </tr>
 
-          </table>
+
+        </table>
       </div>
         <!-- clearfix -->
         <div class="clear"></div>

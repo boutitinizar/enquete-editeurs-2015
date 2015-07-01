@@ -46,7 +46,7 @@ $('html,body').animate({scrollTop: 0}, 'slow');
 //remove classes
      $('#second_step input').removeClass('error').removeClass('valid');
 
- 	 for(i=1; i<6; i++){
+ 	 for(i=1; i<10; i++){
  		var fields = $('#second_step input[name=sugb'+i+']');
  		var error = 0;
  			if( fields.filter(':checked').length == 0 ) {
@@ -220,7 +220,7 @@ function SubmittingForm() {
 			 .html("<img id='checkmark' src='images/check.png' />")
 				.hide()
 				.fadeIn(1500, function() {
-					$('#conclusion').append("<div class='success_div'><h3 class='success'>Nous vous remercions pour votre participation à cette enquête. </h3><h3 class='success'>Nous espérons que cette édition du <strong style='color:#477829'>Config Partners</strong> vous a satisfaite et qu’elle vous a apporté l’opportunité de développer vos contacts, votre business et notre partenariat.</h3><h3>Afin de prolonger cet évènement, vous pouvez découvrir les moments forts sur la rubrique « photos » du site <a style='color:#477829' href='http://www.config.fr/config-partners/photos/' target='_blank'>Config Partners 2015</a> avec le codes suivant :<br /></br><ul><li>Mot de passe : Config_partners2015</li></ul></h3><br/><h3>Cordialement,</h3><br/><h3>L’équipe Config.</h3><br /><a style='color:#477829' href='http://www.config.fr/config-partners/' target='_blank'>Aller sur le site Config Partners 2015 </a></div>");
+					$('#conclusion').append("<div class='success_div'><h3 class='success'>Thanks to answered to the satisfaction survey.  </h3><h3 class='success'>We hope that this edition of  <strong style='color:#477829'>Config Partners</strong> was satisfactory and that it brings opportunities to develop contacts, business and our Partnership..</h3><h3>To prolong this event you can find pics of strong moment  on “photos” section on  <a style='color:#477829' href='http://www.config.fr/config-partners/photos/' target='_blank'>Config Partners 2015</a> website with following codes :  :<br /></br><ul><li>Password  : Config_partners2015</li></ul></h3><br/><h3>Best Regards,</h3><br/><h3>The team Config.</h3><br /><a style='color:#477829' href='http://www.config.fr/config-partners/' target='_blank'>Go to the website Config Partners 2015</a></div>");
 				});
                
                   //update progress bar

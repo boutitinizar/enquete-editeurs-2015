@@ -59,6 +59,7 @@ for($i=0;$i<sizeof($data);$i++){
   $rr['sugb6'][] = $data[$i]['sugb6'];
   $rr['sugb7'][] = $data[$i]['sugb7'];
   $rr['sugb8'][] = $data[$i]['sugb8'];
+  $rr['sugb9'][] = $data[$i]['sugb9'];
 
   $rr['sugd1'][] = $data[$i]['sugd1'];
   $rr['sugd2'][] = $data[$i]['sugd2'];
@@ -85,6 +86,7 @@ for($i=0;$i<sizeof($data);$i++){
   $sugb6 = moyen($rr['sugb6']);
   $sugb7 = moyen($rr['sugb7']);
   $sugb8 = moyen($rr['sugb8']);
+  $sugb9 = moyen($rr['sugb9']);
 
   $sugd1 = moyen($rr['sugd1']);
   $sugd2 = moyen($rr['sugd2']);

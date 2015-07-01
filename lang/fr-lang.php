@@ -20,7 +20,8 @@ define('rythme_repartition_conferences_tables_rondes', 'Rythme (répartition con
 define('votre_slot_de_presentation_duree', 'Votre slot de présentation (durée, outils, positionnement dans le planning, …)');
 define('votre_table_ronde_duree_positionnement_assistance', 'Votre table ronde (durée, positionnement, assistance de Config, revendeurs rencontrés, intérêts générés, …)');
 define('activites_de_detente', 'Activités de détente');
-define('diner_de_gala', 'Dîner de gala');
+define('diner_de_gala_Latino', 'Dîner de gala au Fuego Latino');
+define('diner_de_gala_Comptoir_Darna', 'Dîner de gala au Comptoir Darna');
 define('votre_avis', 'Votre avis');
 define('le_config_partners_2015_a_t_il_repondu_a_vos_attentes', 'Le Config Partners 2015 a-t-il répondu  à vos attentes ');
 define('OUI', 'OUI ');
@@ -37,5 +38,6 @@ define('Nom', 'Nom');
 define('prenom', 'Prénom');
 define('company', 'Société');
 define('Pays', 'Pays');
+define('choose_your_language', 'Choisissez votre langue');
 
 ?>
